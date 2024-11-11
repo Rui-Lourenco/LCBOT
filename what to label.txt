@@ -1,0 +1,36 @@
+label-studio start
+
+based on pixeis = bp
+based on yolo = yolo
+
+areas to label:
+    
+    - press the drive button - bp
+    - Open Mirror Dungeon - bp
+    - Select Team - bp
+    - Select Pack -bp
+
+    - navigate:
+        - nodes: yolo or bp
+        - check if node open (them press enter): yolo or bp
+            - abno nodes:
+                - skip: yolo + bp (yolo indica q ha um abno mas n ha escolha)
+                - escolher melhores: bp or yolo (ver repo)
+                - luta ou gift? 
+    
+    - in combat:
+        - winrate (p + enter): yolo
+        - check if character dead or staggerd: yolo
+            - if dead click on esc and quit: bp
+            - if staggerd (count+=1 them heal at checkpoint): bp
+        - receber reward: yolo
+    
+
+    como é q faço para garantir o burn T4 ego?
+        -teria de ter uns 2-4 tier 3 para poder fuse
+        - ou posso so levar uma team q ignora so os gifts 
+    
+
+fazer umas 100 ou 200 labels + imagens sem labels para train o model
+
+aim para f1_score of 0.6 or higher
